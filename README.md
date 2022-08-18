@@ -21,8 +21,8 @@ Project Requirements:
 For this project, I should use the HTML&CSS linter
 The 2 sections I need to build for this project are: the tool bar and the headline section
 
-Author:
-GitHub: @Harrynqs Twitter: @nqsnoq1 LinkedIn: Harrisonnjuguna 👤 Harrison Njuguna
+Author: Harrison Njuguna
+GitHub: @Harrynoqs Twitter: @nqsnoq1 LinkedIn: Harrisonnjuguna
 
 Feel free to check the issues page.
 
