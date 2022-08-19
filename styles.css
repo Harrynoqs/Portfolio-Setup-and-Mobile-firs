@@ -28,8 +28,8 @@
   padding-left: 24px;
   padding-right: 24px;
   height: 100vh;
- }
- 
+}
+
 .portfolio .intro {
   position: static;
   width: 600px;
@@ -47,14 +47,11 @@
   margin: 12px 0;
   align-items: center;
 }
- 
+
 .portfolio .more-intro {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-}
-
-.portfolio .more-intro {
   position: static;
   width: 327px;
   height: 146px;
@@ -70,7 +67,7 @@
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
- }
+}
 
 .portfolio .socials {
   display: flex;
@@ -86,7 +83,7 @@
   order: 0;
   flex-grow: 0;
   margin: 0;
- }
+}
 
 .logo {
   font-family: "Poppins", sans-serif;
