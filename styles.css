@@ -29,7 +29,7 @@
   padding-right: 24px;
   height: 100vh;
 }
-  
+ 
 .portfolio .intro {
 
   position: static;
@@ -46,59 +46,59 @@
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
-   align-items: center;
+  align-items: center;
 }
-  
+ 
 .portfolio .more-intro {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
 }
 .portfolio .more-intro {
-    position: static;
-    width: 327px;
-    height: 146px;
-    left: 24px;
-    top: 276px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 12px 0;
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
   }
-  
+ 
 .portfolio .socials {
-    display: flex;
-    left: 0;
-    top: 0;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0;
+  display: flex;
+  left: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
   }
-  
+
 .logo {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    padding-top: 10px;
-    font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bolder;
 }
 
 .socialslinks {
-    display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    width: 180px;
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  width: 180px;
+  padding: 0;
 }
