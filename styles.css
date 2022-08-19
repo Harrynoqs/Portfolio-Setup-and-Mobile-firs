@@ -1,51 +1,52 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    border: none;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
 }
 
 .navbar {
-    background: #ffff;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
-    display: flex;
-    place-content: space-between;
-    position: relative;
+  background: #ffff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  place-content: space-between;
+  position: relative;
 }
 
 .portfolio {
-    background-image: url("./img/mobile\ background.png");
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover;
-    background-color: white;
-    border-radius: 0 0 0 100px;
-    padding-top: 114px;
-    padding-left: 24px;
-    padding-right: 24px;
-    height: 100vh;
+  background-image: url("./img/mobile\ background.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-color: white;
+  border-radius: 0 0 0 100px;
+  padding-top: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 100vh;
 }
   
 .portfolio .intro {
-    position: static;
-    width: 600px;
-    left: 24px;
-    top: 114px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    color: #172b4d;
-    order: 0;
-    flex-grow: 0;
-    margin: 12px 0;
-    align-items: center;
+
+  position: static;
+  width: 600px;
+  left: 24px;
+  top: 114px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  color: #172b4d;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+   align-items: center;
 }
   
 .portfolio .more-intro {
