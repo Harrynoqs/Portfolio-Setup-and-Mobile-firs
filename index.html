@@ -3,49 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">    
+    <title>Harrison</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 
-</head>
-<body>
-    <header class="navbar">
-        <div class="nav-logo">
-            <a class="logo" href="#">My Logo</a>           
-        </div>
-        <nav class="container">
-            <div class="menu-wrapper">
-                <img class="mobile-menu" src="img/menu.png" alt="Navigate">
-            </div>
+  </head>
+  <body>
+    <header class="main-section">
+      <section class="toolbar">
+        <nav class="desktop">
+          <div class="all-item"><a href="#">My Logo</a></div>
+          <div class="desk-item">
+            <div><a href="#portfolio">Portfolio</a></div>
+            <div><a href="#about">About</a></div>
+            <div><a href="#contact">Contact</a></div>
+          </div>
+          <div class="item menu"><a href="#" class="openMenu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
         </nav>
-
+      </section>
     </header>
-     <section class="portfolio"> 
-        <h1 class="intro">I'm Harrison <br> Glad to see you!</h1>   
-        <p class="more-intro"> I am software developer! 
-            I can help you build a product, 
-            feature or website Look through some of my work and experience! 
-            If you like what you see and have a project you need coded, 
-            dont hestiate to contact me.
-        </p>        
-        <h4 class="socials">LETs CONNECT</h4>
-        <ul class="socialslinks">
-            <li><a href="#"><img class="social-media" src="img/twitter.png" alt="twitter"></a></li>
-            <li><a href="#"><img class="social-media" src="img/linkedin_icon.png" alt="linkedIn"></a></li>
-            <li><a href="#"><img class="social-media" src="img/medium.png" alt="medium"></a></li>
-            <li><a href="#"><img class="social-media" src="img/github.png" alt="github"></a></li>
-            <li><a href="#"><img class="social-media" src="img/vec.png" alt="vector"></a></li>
-        </ul>
-
-    </section>
-    <section class="works">
-      <div class="grid-container">
+    <main class="main-parts">
+      <section class="headline-section">
+        <h1>I'm Harrion <br> Glad to see <br/> you! </h1>
+        <p>I'm a software developer! I can help you build a product , feature or website Look through some of my
+          work and experience! If you like what you see and have a project you need coded, don't hesitate to
+          contact me.</p>
+  
+      <span class="connect">LETS CONNECT</span>
+  
+        <div class="socialmedia_icons_container">
+          <ul class="media_icons">
+            <li>
+              <a href="#">
+                <img src="images/twitter.svg" alt="Twitter Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/linkedin.png" alt="LinkedIn Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/media.svg" alt="Media Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/github.svg" alt="Github Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/ok.svg" alt="Victory Icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+  
+      <!--Works Section-->
+      <section class="works">
+        <div class="grid-container">
+          <div class="card-layout">
+            <a href="#">
+              <img
+                class="image-fluid"
+                src="images/image_1.png"
+                alt="background_image"
+              />
+            </a>
+            <div class="p-title">
+              <h3 class="title">Tonic</h3>
+              <ul class="flex-items">
+                <li class="list-item canopy">CANOPY</li>
+                <li class="list-item role">Back End Dev</li>
+                <li class="list-item year">2015</li>
+              </ul>
+              <p class="text_paragraph">
+                A daily selection of privately personalized reads; no accounts or
+                sign-ups required.
+              </p>
+              <ul class="btn-container-flex">
+                <li class="btn">
+                  <button class="btn-sm" type="button">html</button>
+                </li>
+                <li class="btn">
+                  <button class="btn-md" type="button">css</button>
+                </li>
+                <li class="btn">
+                  <button class="btn-lg" type="button">javaScript</button>
+                </li>
+              </ul>
+              <div class="btn-container">
+                <button type="button" class="btn-xxl">See Project</button>
+              </div>
+            </div>
+          </div>
+          <div class="card-layout">
+            <a href="#">
+              <img
+                class="image-fluid"
+                src="images/image_2.png"
+                alt="background_image"
+              />
+            </a>
+            <div class="p-title">
+              <h3 class="title">Tonic</h3>
+              <ul class="flex-items">
+                <li class="list-item canopy">CANOPY</li>
+                <li class="list-item role">Back End Dev</li>
+                <li class="list-item year">2015</li>
+              </ul>
+              <p class="text_paragraph">
+                Multi-Post Stories.
+              </p>
+              <ul class="btn-container-flex">
+                <li class="btn">
+                  <button class="btn-sm" type="button">html</button>
+                </li>
+                <li class="btn">
+                  <button class="btn-md" type="button">css</button>
+                </li>
+                <li class="btn">
+                  <button class="btn-lg" type="button">javaScript</button>
+                </li>
+              </ul>
+              <div class="btn-container">
+                <button type="button" class="btn-xxl">See Project</button>
+              </div>
+            </div>
+          </div>
+  
         <div class="card-layout">
           <a href="#">
             <img
               class="image-fluid"
-              src="img/image_1.png"
+              src="images/image_4.png"
               alt="background_image"
             />
           </a>
@@ -75,65 +174,144 @@
               <button type="button" class="btn-xxl">See Project</button>
             </div>
           </div>
-        </div>
-        
-	<section class="about">
-      <h2 class="about-title">About<br />Myself<br /></h2>
-      <p class="paragraph">
-        Hello I'm a software developer! I can help you build a product , feature
-        or website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don't hesitate to contact me.
-      </p>
-
-      <span class="connect">LETS CONNECT</span>
-
-      <div class="socialmedia_icons_container">
-        <ul class="media_icons">
-          <li>
-            <a href="#">
-              <img
-                class="media--images"
-                src="img/twitter.svg"
-                alt="Twitter Icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="media--images"
-                src="img/linkedin.png"
-                alt="LinkedIn Icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="media--images"
-                src="img/media.svg"
-                alt="Media Icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/github.svg" alt="Github Icon" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/ok.svg" alt="Victory Icon" />
-            </a>
-          </li>
-        </ul>
-        <div class="btn-container about-btn">
-          <button type="button" class="btn-xxl btn-resume">
-            Get my resume
-          </button>
+          </div>
+        <div class="card-layout">
+          <a href="#">
+            <img
+              class="image-fluid"
+              src="images/image_3.png"
+              alt="background_image"
+            />
+          </a>
+          <div class="p-title">
+            <h3 class="title">Tonic</h3>
+            <ul class="flex-items">
+              <li class="list-item canopy">CANOPY</li>
+              <li class="list-item role">Back End Dev</li>
+              <li class="list-item year">2015</li>
+            </ul>
+            <p class="text_paragraph">
+              Multi-Post Stories.
+            </p>
+            <ul class="btn-container-flex">
+              <li class="btn">
+                <button class="btn-sm" type="button">html</button>
+              </li>
+              <li class="btn">
+                <button class="btn-md" type="button">css</button>
+              </li>
+              <li class="btn">
+                <button class="btn-lg" type="button">javaScript</button>
+              </li>
+            </ul>
+            <div class="btn-container">
+              <button type="button" class="btn-xxl">See Project</button>
+            </div>
+          </div>
         </div>
       </div>
-
-    
-</body>
-</html>
+      </section>
+  
+      <section class="about">
+        <h2 class="about-title">About<br />Myself<br /></h2>
+        <p class="paragraph">
+          Hello I'm a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don't hesitate to contact me.
+        </p>
+  
+        <span class="connect">LETS CONNECT</span>
+  
+        <div class="socialmedia_icons_container">
+          <ul class="media_icons">
+            <li>
+              <a href="#">
+                <img
+                  class="media--images"
+                  src="images/twitter.svg"
+                  alt="Twitter Icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  class="media--images"
+                  src="images/linkedin.png"
+                  alt="LinkedIn Icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  class="media--images"
+                  src="images/media.svg"
+                  alt="Media Icon"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/github.svg" alt="Github Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/ok.svg" alt="Victory Icon" />
+              </a>
+            </li>
+          </ul>
+          <div class="btn-container about-btn">
+            <button type="button" class="btn-xxl btn-resume">
+              Get my resume
+            </button>
+          </div>
+        </div>
+  
+        <ul class="accordion">
+          <li>
+            <div class="accordion-container">
+              <a class="skill--description-link" href="#"
+                ><span class="skill--description">Languages</span></a
+              >
+              <ion-icon
+                class="chevron-icons"
+                name="chevron-down-sharp"
+              ></ion-icon>
+            </div>
+            <ul>
+              <li class="skill">
+                <img class="skill-image" src="images/skill_1.png" alt="" />
+                <span class="skill-name">Javascript</span>
+              </li>
+              <li class="skill">
+                <img class="skill-image" src="images/skill_2.png" alt="" />
+                <span class="skill-name">HTML</span>
+              </li>
+              <li class="skill">
+                <img class="skill-image" src="images/skill_3.png" alt="" />
+                <span class="skill-name">CSS</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+  
+        <div class="frameworks-container">
+          <a class="framework--title-link" href="#">
+            <span class="framework--title">Frameworks</span></a
+          >
+          <ion-icon class="chevron-icons" name="chevron-forward-sharp"></ion-icon>
+        </div>
+        <hr />
+        <div class="skills-container">
+          <a class="skills--title-link" href="#">
+            <span class="skills--title">Skills</span></a
+          >
+          <ion-icon class="chevron-icons" name="chevron-forward-sharp"></ion-icon>
+        </div>
+      </section>      
+    </main>      
+    </body>
+  </html>
+  
