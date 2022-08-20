@@ -123,11 +123,6 @@ a {
   width: 270px;
 }
 
-.btn-container-flex {
-  display: flex;
-  margin-top: 5px;
-}
-
 .paragraph {
   padding: 20px;
   font-family: "Poppins", sans-serif;
