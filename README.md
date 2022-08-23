@@ -21,7 +21,18 @@ Prepare a CSS file
 
 Prerequisites click https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
 
-GitHub: @Harrynqs Twitter: @nqsnoq1 LinkedIn: Harrisonnjuguna 👤 Harrison Njuguna
+Author
+Harrison Njuguna
+GitHub: @Harrynqs 
+Twitter: @noqsnoq1 
+LinkedIn: Harrisonnjuguna
+
+Contributor
+👤 John Adibe
+
+GitHub: @githubhandle
+Twitter: @twitterhandle
+LinkedIn: LinkedIn
 
 Feel free to check the issues page.
 
