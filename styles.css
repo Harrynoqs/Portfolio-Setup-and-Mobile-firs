@@ -188,9 +188,9 @@ li {
   line-height: 16px;
 }
 
-.btn-container-flex {
-  display: flex;
+.btn-container-flex{
   margin-top: 5px;
+  display: flex;
 }
 
 .btn {
