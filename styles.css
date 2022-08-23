@@ -188,7 +188,7 @@ li {
   line-height: 16px;
 }
 
-.btn-container-flex{
+.btn-container-flex {
   margin-top: 5px;
   display: flex;
 }
@@ -488,7 +488,6 @@ button:hover {
   background: #8f9afc;
   color: white;
 }
-
 
 button:active {
   background: #0416b6;
