@@ -452,3 +452,44 @@ hr {
 ul.inner-list {
   list-style-type: none;
 }
+
+li input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-family: Poppins, sans-serif;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  color: #000;
+  margin-top: 18px;
+}
+
+li textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  font-family: Poppins, sans-serif;
+  border-radius: 8px;
+  width: 100%;
+  height: 150px;
+  padding-left: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 18px;
+}
+
+.shape {
+  padding-right: 25%;
+  padding-left: 30%;
+  margin-top: 45px;
+}
+
+button:hover {
+  background: #8f9afc;
+  color: white;
+}
+
+button:active {
+  background: #0416b6;
+  color: white;
+}
