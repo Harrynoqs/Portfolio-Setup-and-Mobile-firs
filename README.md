@@ -1,8 +1,23 @@
-# Portfolio-Setup-and-Mobile-firs
+# Portfolio-Setup-and-Mobile-first Contact page.
 
-Project Name Portfolio setup
+Project Description
+The Primary purpose of this project is to complete the mobile version of my portfolio website.
 
-Built With Css Html
+Objectives
+Build a Toolbar for the project 
+Build a headline section for the project 
+Build the About Section 
+Build the Works Section 
+Build the Contact Us Section
+
+Built With
+HTML/CSS
+Tasks
+Set up linters
+
+Prepare an HTML file
+
+Prepare a CSS file
 
 Prerequisites click https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
 
