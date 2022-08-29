@@ -24,7 +24,6 @@ body {
   color: #172b4d;
 }
 
-
 .humbuger {
   display: none;
 }
@@ -109,19 +108,17 @@ nav {
   gap: 12px;
   width: 327px;
   height: 552px;
-  /* Neutrals/N0 */
   background: #FFFFFF;
-  /* Neutrals/N40 */
   border: 1px solid #DFE1E6;
   border-radius: 16px;
 }
 
 .flex-button{
   display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px;
-gap: 12px;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
 
 }
 
@@ -142,8 +139,8 @@ gap: 12px;
 }
 
 .cardimage {
-max-width: 295px;
-max-height: 220px;
+  max-width: 295px;
+  max-height: 220px;
 }
 
 .card-title {
@@ -154,9 +151,7 @@ max-height: 220px;
   gap: 12px;
   width: 327px;
   height: 552px;
-  /* Neutrals/N0 */
   background: #FFFFFF;
-  /* Neutrals/N40 */
   border: 1px solid #DFE1E6;
   border-radius: 16px;
 }
@@ -172,11 +167,6 @@ max-height: 220px;
 .first {
   list-style: none;
   color: #344563 !important;
-}
-
-.flex-button {
-  display: flex;
-  margin-top: 0.3125rem;
 }
 
 .button {
@@ -335,13 +325,13 @@ max-height: 220px;
 }
 
 .about_part {
-padding: 24px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 0.75rem;
-background-size: 100%;
-background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  background-size: 100%;
+  background-color: white;
 }
 
 .heading_about {
@@ -405,9 +395,7 @@ background-color: white;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
   text-align: center;
-  /* Primary/B50 */
   color: #EBEBFF;
 }
 
@@ -423,7 +411,6 @@ background-color: white;
 .form .input {
   width: 100%;
 }
-
 
 .sectorcontact {
   position: absolute;
@@ -480,4 +467,3 @@ background-color: white;
  padding-bottom: 45px;
 }
   
-
