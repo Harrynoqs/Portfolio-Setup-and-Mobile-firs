@@ -17,7 +17,7 @@ body {
 
 body {
   background-color: #e5e5e5;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   padding: 0%;
   margin: 0%;
   color: #172b4d;
@@ -252,7 +252,7 @@ nav {
 }
 
 .icon_link {
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -375,7 +375,7 @@ nav {
   width: 327px;
   height: 102px;
   left: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -431,7 +431,7 @@ nav {
 }
 
 .submitt {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
