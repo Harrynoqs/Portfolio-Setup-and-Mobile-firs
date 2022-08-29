@@ -293,8 +293,6 @@ nav {
   justify-content: space-between;
 }
 
-/*--about  */
-
 .contain_noqs {
   display: flex;
   flex-direction: column;
@@ -342,8 +340,6 @@ nav {
   gap: 1.2188rem;
 }
 
-/* form */
-
 .cont_act {
   background-image: url(image/contact\ form.png);
   background-color: #6070ff;
@@ -370,7 +366,7 @@ nav {
   padding-bottom: 16px;
 }
 
-.contact_items{
+.contact_items {
    text-align: center;
 }
 
@@ -453,6 +449,6 @@ nav {
   height: 5px;
   left: calc(50% - 134px/2 - 0.5px);
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
