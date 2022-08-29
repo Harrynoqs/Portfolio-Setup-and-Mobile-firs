@@ -315,7 +315,6 @@ nav {
   flex-direction: column;
   gap: 1rem;
   width: 100%;
-
 }
 
 .about_part {
@@ -397,7 +396,7 @@ nav {
   padding: 3rem 0px 0px 0px;
   align-items: flex-start;
   margin-top: 60px;
-  gap:24px;
+  gap: 24px;
 }
 
 .form-list {
@@ -459,7 +458,7 @@ nav {
 }
 
 #sbm {
-  margin-bottom: 45px ;
+  margin-bottom: 45px;
 }
 
 .bottom_line {
