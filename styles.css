@@ -18,7 +18,6 @@ body {
 body {
   background-color: #e5e5e5;
   font-family: Poppins;
-
   padding: 0%;
   margin: 0%;
   color: #172b4d;
@@ -31,7 +30,6 @@ body {
 a {
   font-size: 1.56rem;
   line-height: 1.25rem;
-  /* color: #6070ff; */
   text-decoration: none;
 }
 
@@ -74,7 +72,6 @@ nav {
   background-size: 100%;
   background-color: white;
   height: 600px;
-  
 }
 
 .social-link {
@@ -108,7 +105,7 @@ nav {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
 }
@@ -151,7 +148,7 @@ nav {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
 }
@@ -209,13 +206,6 @@ nav {
   display: flex;
   flex-direction: column;
   margin-left: ;
-}
-
-.lang-container {
-  margin-bottom: 36px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
 }
 
 .skillone {
@@ -396,7 +386,7 @@ nav {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .form {
@@ -416,7 +406,7 @@ nav {
   position: absolute;
   width: 100%;
   height: auto;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .contactsheader {
