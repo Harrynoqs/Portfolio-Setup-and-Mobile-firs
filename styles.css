@@ -447,7 +447,7 @@ nav {
   position: absolute;
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: 110px;
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
