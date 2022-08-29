@@ -106,17 +106,16 @@ nav {
   width: 327px;
   height: 552px;
   background: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
-.flex-button{
+.flex-button {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 16px;
   gap: 12px;
-
 }
 
 .grid {
@@ -149,7 +148,7 @@ nav {
   width: 327px;
   height: 552px;
   background: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -192,10 +191,10 @@ nav {
   transition: 0.2s;
 }
 
-.lang-container{
+.lang-container {
   padding: 0 50px 0 2px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 1em;
   align-items: center;
   width: 70%;
@@ -205,7 +204,7 @@ nav {
 .lang-list {
   display: flex;
   flex-direction: column;
-  margin-left: ;
+  margin-left: 2.3rem;
 }
 
 .skillone {
@@ -448,12 +447,13 @@ nav {
   color: #6070ff;
 }
 
-.bottom_line{
- position: absolute;
- width: 134px;
- height: 5px;
- left: calc(50% - 134px/2 - 0.5px);
- bottom: 8px;
- padding-bottom: 45px;
+.bottom_line {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 8px;
+  background: #0D151E;
+  border-radius: 10px;
 }
   
