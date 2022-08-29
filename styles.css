@@ -5,7 +5,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0%;
+  padding: 0%
 }
 
 html,
@@ -114,7 +114,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 16px;
+  padding: 16px 0;
   gap: 12px;
 }
 
@@ -142,7 +142,7 @@ nav {
 .card-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 16px;
   gap: 12px;
   width: 327px;
@@ -167,7 +167,6 @@ nav {
 
 .button {
   background-color: #ebebff;
-  width: 3.3125rem;
   text-align: center;
   height: 24px;
   border-radius: 8px;
@@ -194,17 +193,17 @@ nav {
 .lang-container {
   padding: 0 50px 0 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 1em;
   align-items: center;
-  width: 70%;
-  margin-left: 4em;
+  width: 100%;
 }
 
 .lang-list {
   display: flex;
   flex-direction: column;
   margin-left: 2.3rem;
+  width: 100%;
 }
 
 .skillone {
@@ -217,6 +216,7 @@ nav {
   align-self: flex-start;
   list-style: none;
   padding: 0;
+  width: 100%;
 }
 
 .pointer {
@@ -225,14 +225,13 @@ nav {
 
 .language_list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0;
 }
 
 .lang_icon {
-  width: 122px;
-  height: 120px;
-  margin-left: 12px;
+  width: 100%;
+  display: flex;
 }
 
 .lang_icon > .lang_icon {
@@ -263,6 +262,7 @@ nav {
 }
 
 .detail_all {
+  width: 100%;
   margin-top: 36px;
   margin-bottom: 36px;
   padding-bottom: 24px;
@@ -293,26 +293,33 @@ nav {
   justify-content: space-between;
 }
 
+.about{
+  min-height: 100vh;
+  margin-top: 114px;
+  background-color: white;
+  border-top-right-radius: 40px;
+  
+}
+
 .contain_noqs {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
-  text-align: center;
-  border: 1px solid rgb(221 217 217);
-  border-top-right-radius: 40px;
-  height: 750px;
-  background-color: white;
+  height: 100%;
+  padding-top: 114px;
+  padding-bottom: 113px;
 }
 
 .allabout {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
+
 }
 
 .about_part {
-  padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -341,20 +348,21 @@ nav {
 }
 
 .cont_act {
-  background-image: url(image/contact\ form.png);
-  background-color: #6070ff;
   width: 100%;
   background-size: cover;
-  padding-top: 30px;
+  padding: 30px 24px 0 24px;
   margin: auto;
   padding-bottom: 0.4rem;
 }
 
 .contact_sub {
+  background-image: url(image/contact\ form.png);
+  background-size: cover;
+  width: 100%;
   background-color: #6070ff;
   border-top-left-radius: 75px;
   margin: auto;
-  padding: 80px;
+  padding: 80px 0 0 0;
 }
 
 .contacts h2 {
@@ -373,9 +381,8 @@ nav {
 .contact_paragraph {
   position: absolute;
   width: 327px;
-  height: 102px;
   left: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -388,9 +395,18 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  align-items: center;
+  padding: 3rem 0px 0px 0px;
+  align-items: flex-start;
   margin-top: 60px;
+  gap:24px;
+}
+
+.form-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .form .input {
@@ -419,8 +435,8 @@ nav {
   width: 327px;
   border-radius: 0.5rem;
   height: 3rem;
-  margin: 5px 0;
   border: 1px solid#cfd8dc;
+  padding: 0;
 }
 
 .form_message {
@@ -431,7 +447,7 @@ nav {
 }
 
 .submitt {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -441,6 +457,10 @@ nav {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
+}
+
+#sbm{
+  margin-bottom: 45px ;
 }
 
 .bottom_line {
