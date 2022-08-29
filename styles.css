@@ -5,7 +5,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0%
+  padding: 0%;
 }
 
 html,
@@ -293,12 +293,11 @@ nav {
   justify-content: space-between;
 }
 
-.about{
+.about {
   min-height: 100vh;
   margin-top: 114px;
   background-color: white;
   border-top-right-radius: 40px;
-  
 }
 
 .contain_noqs {
@@ -382,7 +381,7 @@ nav {
   position: absolute;
   width: 327px;
   left: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -401,7 +400,7 @@ nav {
   gap:24px;
 }
 
-.form-list{
+.form-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -447,7 +446,7 @@ nav {
 }
 
 .submitt {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -459,7 +458,7 @@ nav {
   color: #6070ff;
 }
 
-#sbm{
+#sbm {
   margin-bottom: 45px ;
 }
 
