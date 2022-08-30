@@ -12,7 +12,6 @@ html,
 body {
   font-size: 1rem;
   box-sizing: inherit;
-  /* width: 375px; */
 }
 
 body {
@@ -103,7 +102,6 @@ nav {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  /* width: 327px; */
   height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -181,7 +179,6 @@ nav {
   background-color: #1818eb;
   color: #b7bcff;
 }
-
 
 .see-button {
   width: 7.75rem;
