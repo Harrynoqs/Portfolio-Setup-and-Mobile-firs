@@ -188,6 +188,13 @@ nav {
   font-weight: 500;
   font-size: 1.06rem;
   transition: 0.2s;
+  cursor: pointer;
+}
+
+.see-button:hover {
+  width: 10rem;
+  background-color: #7f8cff;
+  color: #dfe1e6;
 }
 
 .lang-container {
