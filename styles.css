@@ -186,14 +186,7 @@ nav {
   padding-top: 4px;
   font-weight: 500;
   font-size: 1.06rem;
-  transition: ease-out 0.2s;
-  cursor: pointer;
-}
-
-.see-button:hover {
-  border: 1px solid #fff;
-  background-color: #6070ff;
-  color: #010612;
+  transition: 0.2s;
 }
 
 .lang-container {
