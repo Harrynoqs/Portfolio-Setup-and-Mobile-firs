@@ -173,7 +173,15 @@ nav {
   color: #b7bcff;
   padding: 4px 12px 4px 12px;
   transition: 0.25s;
+  cursor: pointer;
 }
+
+.button:hover {
+  border-radius: 30px;
+  background-color: #1818eb;
+  color: #b7bcff;
+}
+
 
 .see-button {
   width: 7.75rem;
@@ -187,6 +195,12 @@ nav {
   font-weight: 500;
   font-size: 1.06rem;
   transition: 0.2s;
+}
+
+.see-button:hover {
+  border-radius: 30px;
+  background-color: #1818eb;
+  color: #b7bcff;
 }
 
 .lang-container {
