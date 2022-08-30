@@ -12,7 +12,7 @@ html,
 body {
   font-size: 1rem;
   box-sizing: inherit;
-  width: 375px;
+  /* width: 375px; */
 }
 
 body {
@@ -103,7 +103,7 @@ nav {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  width: 327px;
+  /* width: 327px; */
   height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -148,7 +148,6 @@ nav {
   width: 327px;
   height: 552px;
   background: #fff;
-  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -187,7 +186,14 @@ nav {
   padding-top: 4px;
   font-weight: 500;
   font-size: 1.06rem;
-  transition: 0.2s;
+  transition: ease-out 0.2s;
+  cursor: pointer;
+}
+
+.see-button:hover {
+  border: 1px solid #fff;
+  background-color: #6070ff;
+  color: #010612;
 }
 
 .lang-container {
@@ -294,7 +300,7 @@ nav {
 }
 
 .about {
-  min-height: 100vh;
+  min-height: 1vh;
   margin-top: 114px;
   background-color: white;
   border-top-right-radius: 40px;
