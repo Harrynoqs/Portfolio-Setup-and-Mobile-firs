@@ -58,6 +58,8 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 
 .text_one {
@@ -532,6 +534,7 @@ nav {
 .card-title {
   width: 50%;
   padding-top: 60px;
+  margin: 24px;
 }
 
 .cardimage {
@@ -577,6 +580,7 @@ nav {
   background: #f7f7f9;
   border-radius: 8px;
   gap: 10rem;
+  margin-left: 20px;
 }
 
 /* here */
@@ -616,10 +620,10 @@ nav {
 }
 
 .cont_act {
-  background-image: url('image/contact\ form.png');
+  background-image: url('/image/contactdesk.png') no repeat;
   background-color: #6070ff;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   border-top-left-radius: 80px;
   padding-top: 30px;
   margin: auto;
@@ -665,13 +669,11 @@ nav {
 .card3{
   background: url("./image/deskthree.png") no-repeat center;
   background-size: contain;
+}
 
   .card4{
     background: url("./image/deskfour.png") no-repeat center;
     background-size: contain;
-  }
 }
-
-
 }
 
