@@ -101,6 +101,7 @@ nav {
 .noqs {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 16px;
   gap: 12px;
@@ -134,10 +135,10 @@ nav {
   max-height: 220px;
 }
 
-.cardimg {
+.cardimg{
   background-size: 100%;
-  width: 100%;
-  flex-basis: 50%;
+  flex-basis: 15em;
+  width: 90%;
 }
 
 .card1 {
@@ -152,9 +153,9 @@ nav {
   background: url("./image/cardthree.svg") no-repeat center;
 }
 
-/* .card4 {
+.card4 {
   background: url("./image/cardfour.svg") no-repeat center;
-} */
+}
 
 .card-title {
   display: flex;
@@ -389,7 +390,7 @@ nav {
   background-color: #6070ff;
   border-top-left-radius: 75px;
   margin: auto;
-  padding: 80px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .contacts h2 {
@@ -407,7 +408,7 @@ nav {
 
 .contact_paragraph {
   position: absolute;
-  width: 327px;
+  width: 46%;
   left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -422,6 +423,8 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 3rem 0 0 0;
   align-items: flex-start;
   margin-top: 60px;
@@ -435,6 +438,7 @@ nav {
   align-items: center;
   gap: 24px;
 }
+
 
 .form .input {
   width: 100%;
@@ -638,6 +642,10 @@ nav {
     width: 70%;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .form_message {
+    resize: none;
   }
 
   .see-button {
