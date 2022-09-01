@@ -1,7 +1,8 @@
 Portfolio-Setup-and-Mobile-first Contact page.
-Project Description The Primary purpose of this project is to complete the mobile version of my portfolio website.
+Project Description The Primary purpose of this project is to complete the desktop version of my portfolio website.
 
 Objectives 
+build desktop version of portfolio website
 Build a Toolbar for the project 
 Build a headline section for the project 
 Build the About Section 
