@@ -655,22 +655,22 @@ nav {
     flex-basis: 50%;
   }
 
-  .card1{
+  .card1 {
     background: url("./image/deskone.png") no-repeat center;
     background-size: contain;
   }
 
-  .card2{
+  .card2 {
     background: url("./image/desktwo.png") no-repeat center;
     background-size: contain;
   }
 
-  .card3{
+  .card3 {
     background: url("./image/deskthree.png") no-repeat center;
     background-size: contain;
   }
 
-  .card4{
+  .card4 {
     background: url("./image/deskfour.png") no-repeat center;
     background-size: contain;
   }
