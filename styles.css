@@ -140,11 +140,11 @@ nav {
   flex-basis: 50%;
 }
 
-.card1{
+.card1 {
   background: url("./image/cardone.svg") no-repeat center;
 }
 
-.card2{
+.card2 {
   background: url("./image/cardtwo.svg") no-repeat center;
 }
 
@@ -649,7 +649,6 @@ nav {
   }
 
   .cardimg {
-    background-size: 100%;
     width: 100%;
     height: 100%;
     background-size: contain;
@@ -671,8 +670,8 @@ nav {
     background-size: contain;
   }
 
-    .card4{
-      background: url("./image/deskfour.png") no-repeat center;
-      background-size: contain;
+  .card4{
+    background: url("./image/deskfour.png") no-repeat center;
+    background-size: contain;
   }
-  }
+}
