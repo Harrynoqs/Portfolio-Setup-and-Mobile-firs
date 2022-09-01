@@ -135,7 +135,7 @@ nav {
   max-height: 220px;
 }
 
-.cardimg{
+.cardimg {
   background-size: 100%;
   flex-basis: 15em;
   width: 90%;
@@ -435,10 +435,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 24px;
 }
-
 
 .form .input {
   width: 100%;
