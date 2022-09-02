@@ -36,14 +36,10 @@ ul {
   list-style-type: none;
 }
 
-.padding {
-  padding-inline: 1.5rem;
-}
-
 nav {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
   justify-content: space-between;
   padding: 1rem;
   background-color: white;
@@ -92,25 +88,6 @@ nav {
   font-weight: 500;
 }
 
-.containerx {
-  display: grid;
-  margin-top: 30px;
-  row-gap: 15px;
-}
-
-.noqs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  height: auto;
-  background: #fff;
-  border: 1px solid #5f0505;
-  border-radius: 16px;
-}
-
 .flex-button {
   display: flex;
   flex-direction: row;
@@ -119,10 +96,9 @@ nav {
   gap: 12px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
+.reversed {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .flex-cards {
@@ -133,40 +109,6 @@ nav {
 .cardimage {
   max-width: 295px;
   max-height: 220px;
-}
-
-.cardimg {
-  background-size: 100%;
-  flex-basis: 15em;
-  width: 90%;
-}
-
-.card1 {
-  background: url("./image/cardone.svg") no-repeat center;
-}
-
-.card2 {
-  background: url("./image/cardtwo.svg") no-repeat center;
-}
-
-.card3 {
-  background: url("./image/cardthree.svg") no-repeat center;
-}
-
-.card4 {
-  background: url("./image/cardfour.svg") no-repeat center;
-}
-
-.card-title {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 16px;
-  gap: 12px;
-  width: 327px;
-  height: 100;
-  background: #fff;
-  border-radius: 16px;
 }
 
 .all-list {
@@ -444,6 +386,10 @@ nav {
   width: 100%;
 }
 
+.form ul li input {
+  padding: 10px;
+}
+
 .sectorcontact {
   position: absolute;
   width: 100%;
@@ -504,62 +450,93 @@ nav {
   border-radius: 10px;
 }
 
+/* NEW STYLES */
+
+.containerx {
+  background-color: #e5e5e5;
+  padding: 0 5%;
+}
+
+.noqs {
+  background-color: #fff;
+  width: 100%;
+  margin: 3rem 0;
+  padding: 16px;
+}
+
+.noqs .cardimg img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.noqs .card-title .flex-cards {
+  margin: .8rem 0;
+}
+
+.imagedesktop {
+  display: none;
+}
+
 /* --desktop-- */
 
 @media only screen and (min-width: 768px) {
-  .menu-image {
+
+  .imagedesktop {
+    display: block;
+  }
+  .imgmobile {
+    display: none;
+  }
+  .containerx {
+    padding: 50px 10%;
+  }
+
+  .noqs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border-radius: 16px;
+  }
+
+  .noqs .card-title {
+    margin: 30px 0 0 0;
+  }
+
+  .noqs.reversed {
+    flex-direction: row-reverse;
+  }
+
+  nav {
+    width: 100%;
+    padding: 20px 10%;
+  }
+
+.menu-image {
     display: none;
   }
 
-  .body-section {
-    align-items: center;
-  }
 
-  .red {
-    width: 1440px;
-  }
+  /* END */
 
   .humbuger {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
-    margin-left: 70%;
+  }
+
+  .humbuger .menu {
+    margin: auto 10px;
+    text-align: right;
   }
 
   .text_one {
     background-size: contain;
-    background-image: url("/image/deskcontact.png");
+    background-image: url("./image/topbgDesktop.png");
     width: 1440px;
     height: 600px;
     padding-top: 5rem;
     padding-left: 25%;
     padding-right: 25%;
-  }
-
-  .noqs {
-    display: flex;
-    flex-direction: row;
-    width: 1440px;
-    margin: 0px auto;
-    height: auto;
-    max-width: 80%;
-    margin-bottom: 5px;
-  }
-
-  .card-title {
-    width: 50%;
-    padding-top: 60px;
-    margin: 24px;
-  }
-
-  .cardimage {
-    max-width: 600px;
-    max-height: 220px;
-  }
-
-  .noqs.reversed {
-    flex-direction: row-reverse;
   }
 
   .about {
@@ -684,38 +661,5 @@ nav {
 
   .bottom_line {
     display: none;
-  }
-
-  .works {
-    display: flex;
-    
-    align-items: center;
-  }
-
-  .cardimg {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    flex-basis: 50%;
-  }
-
-  .card1 {
-    background: url("./image/deskone.png") no-repeat center;
-    background-size: contain;
-  }
-
-  .card2 {
-    background: url("./image/desktwo.png") no-repeat center;
-    background-size: contain;
-  }
-
-  .card3 {
-    background: url("./image/deskthree.png") no-repeat center;
-    background-size: contain;
-  }
-
-  .card4 {
-    background: url("./image/deskfour.png") no-repeat center;
-    background-size: contain;
   }
 }
