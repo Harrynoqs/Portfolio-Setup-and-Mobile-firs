@@ -39,7 +39,6 @@ ul {
 nav {
   display: flex;
   align-items: center;
-  /* gap: 0.5rem; */
   justify-content: space-between;
   padding: 1rem;
   background-color: white;
@@ -470,7 +469,7 @@ nav {
 }
 
 .noqs .card-title .flex-cards {
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
 
 .imagedesktop {
@@ -480,13 +479,14 @@ nav {
 /* --desktop-- */
 
 @media only screen and (min-width: 768px) {
-
   .imagedesktop {
     display: block;
   }
+
   .imgmobile {
     display: none;
   }
+
   .containerx {
     padding: 50px 10%;
   }
@@ -511,12 +511,9 @@ nav {
     padding: 20px 10%;
   }
 
-.menu-image {
+  .menu-image {
     display: none;
   }
-
-
-  /* END */
 
   .humbuger {
     display: flex;
@@ -607,13 +604,6 @@ nav {
   }
 
   .contact_sub {
-    border-top-left-radius: 5rem;
-    margin: auto;
-    padding: 5rem;
-    width: 1440px;
-  }
-
-  .contact_sub {
     background: url("/image/deskcontact.png") no-repeat;
     background-color: #6070ff;
     background-position-x: 80px;
@@ -623,10 +613,9 @@ nav {
     border-top-left-radius: 75px;
     margin: auto;
     padding: 20px 0 0 0;
-
   }
 
- .contact_paragraph {
+  .contact_paragraph {
     width: 40%;
     height: 100px;
     padding: 0;
@@ -636,7 +625,7 @@ nav {
 
   .form-list {
     width: 100%;
-   }
+  }
 
   .form-list > li {
     width: 40%;
