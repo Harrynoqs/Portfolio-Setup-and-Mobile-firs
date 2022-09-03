@@ -1,44 +1,68 @@
+
+Project Name
 Portfolio Desktop version
+
+Description the project.
 This is a desktop version similar to a Figma template. It must use media quiries to adapt to different screen sizes.
 
 Built With
-HTML
 CSS
+Html
 
 Description
-It should look almost like the Figma template I chose.
-Linter should be set up correctly for this repository.
-Use of media queries for webpage to adapt to different screen sizes.
-Use of CSS Grid and Flexbox.
+The projectlooks the Figma template I chose.
+I setup Linter correctly for this repository.
+I used media queries for webpage to adapt to different screen sizes.
+I use of CSS Grid and Flexbox.
 I used HTML sematic tags
-Used HTML5 form tags
+I used HTML5 form tags
 Form validates the data supplied by the user.
 Username accepts a maximum of 30 characters.
 The textarea/message box accepts a maximum of 500 characters.
-Form is having an interactive button.
+The rorm has having an interactive button.
+
 Prerequisites
-Text editor
+Visual studio editor
 
+Frameworks
+Technologies used
 
-## Get Started
+Live Demo Link https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
+
+Getting Started
+This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
 
 To get a local copy up and running follow these simple example steps.
 
-1. Clone the Repo or Download the Zip file
-2. Run the live server or simply open index.html with your browser.
+Prerequisites
+Setup
+Install
+Usage
+Run tests
+Deployment
 
-
-Author Harrison Njuguna 
+Author
+👤 Author Harrison Njuguna 
 
 GitHub: @Harrynqs 
 Twitter: @noqsnoq1 
 LinkedIn: Harrisonnjuguna
+👤 Author2
 
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support Give a ⭐️ if you like this project!
+Show your support
+Give a ⭐️ if you like this project!
 
-Acknowledgments Hat tip to anyone whose code was used Inspiration etc 📝 License This project is MIT licensed.
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
+This project is MIT licensed.
 
 NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
+
