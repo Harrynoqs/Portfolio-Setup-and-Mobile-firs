@@ -18,8 +18,15 @@ The textarea/message box accepts a maximum of 500 characters.
 Form is having an interactive button.
 Prerequisites
 Text editor
-GitHub
 
+## Get Started
+
+To get a local copy up and running follow these simple example steps.
+
+1. Clone the Repo or Download the Zip file
+2. Run the live server or simply open index.html with your browser.
+
+GitHub
 Author Harrison Njuguna 
 
 GitHub: @Harrynqs 
