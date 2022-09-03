@@ -1,20 +1,32 @@
-Portfolio-Setup-and-Mobile-first Contact page.
-Project Description The Primary purpose of this project is to complete the mobile version of my portfolio website.
+Portfolio Desktop version
+This is a desktop version similar to a Figma template. It must use media quiries to adapt to different screen sizes.
 
-Objectives 
-Build a Toolbar for the project 
-Build a headline section for the project 
-Build the About Section 
-Build the Works Section 
-Build the Contact Us Section
+Built With
+HTML
+CSS
 
-Built With HTML/CSS Tasks Set up linters
+Description
+It should look almost like the Figma template I chose.
+Linter should be set up correctly for this repository.
+Use of media queries for webpage to adapt to different screen sizes.
+Use of CSS Grid and Flexbox.
+I used HTML sematic tags
+Used HTML5 form tags
+Form validates the data supplied by the user.
+Username accepts a maximum of 30 characters.
+The textarea/message box accepts a maximum of 500 characters.
+Form is having an interactive button.
+Prerequisites
+Text editor
+GitHub
 
-Prepare an HTML file
+## Get Started
 
-Prepare a CSS file
+To get a local copy up and running follow these simple example steps.
 
-Prerequisites click https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
+1. Clone the Repo or Download the Zip file
+2. Run the live server or simply open index.html with your browser.
+
 
 Author Harrison Njuguna 
 
