@@ -190,6 +190,15 @@ nav {
   width: 100%;
 }
 
+.detail_all .langall {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 22px;
+  color: #000;
+}
+
 .pointer {
   padding-left: 80%;
 }
@@ -479,12 +488,19 @@ nav {
 /* --desktop-- */
 
 @media only screen and (min-width: 768px) {
+
   .imagedesktop {
     display: block;
   }
 
   .imgmobile {
     display: none;
+  }
+
+  .logo {
+    text-decoration: none;
+    color: #1818eb;
+    justify-content: flex-start;
   }
 
   .containerx {
@@ -517,8 +533,8 @@ nav {
 
   .humbuger {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;    
   }
 
   .humbuger .menu {
@@ -529,11 +545,45 @@ nav {
   .text_one {
     background-size: contain;
     background-image: url("./image/topbgDesktop.png");
-    width: 1440px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     padding-top: 5rem;
-    padding-left: 25%;
-    padding-right: 25%;
+    text-align: left;
+    height: 100%;
+  }
+
+  .paragraph1 {
+   /* justify-items: left; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .heading {
+    margin: 0 260px 0 260px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 120px;
+  }
+
+  .paragraph {
+    margin: 0 260px 0 260px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .paralast {
+    margin: 0;
+  }
+
+  .conect {
+    margin: 0 260px 0 260px;
+    margin-bottom: 120px;
   }
 
   .about {
@@ -541,7 +591,11 @@ nav {
     margin-top: 114px;
     background-color: white;
     border-top-right-radius: 40px;
-    width: 1440px;
+    width: 100%;
+  }
+
+  .about_part {
+    margin-left: 48px;
   }
 
   .contain_noqs {
