@@ -563,7 +563,7 @@ nav {
   .humbuger {
     display: flex;
     justify-content: flex-end;
-    font-weight: bold;    
+    font-weight: bold;
   }
 
   .humbuger .menu {
@@ -575,14 +575,12 @@ nav {
     background-size: contain;
     background-image: url("./image/topbgDesktop.png");
     width: 100%;
-    height: auto;
     padding-top: 5rem;
     text-align: left;
     height: 100%;
   }
 
   .paragraph1 {
-   /* justify-items: left; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -623,11 +621,7 @@ nav {
     width: 100%;
   }
 
-  /* .about_part {
-    margin-left: 48px;
-  } */
-
-  .conect2 {
+   .conect2 {
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
@@ -659,7 +653,7 @@ nav {
     flex-direction: column;
     width: 122px;
     height: 120px;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
     padding: 16px;
   }
