@@ -11,31 +11,27 @@
       rel="styles.css"
     />
   </head>
-  <body>
+  <body class="body-section">
     <header class="red">
       <section class="blue">
         <nav>
-          <div>
             <a href="#" class="logo">Noqs</a>
-          </div>
-          <div class="humbuger">
-            <div class="menu">portfilio</div>
-            <div class="menu">about</div>
-            <div class="menu">contact</div>
-          </div>
-          <div>
+          <ul class="humbuger">
+            <li class="menu">portfilio</li>
+            <li class="menu">about</li>
+            <li class="menu">contact</li>
+          </ul>
             <div class="menu-image">
               <a href="#" class="humbugerlogo"
                 ><img src="/image/Humbugermenu.svg" alt=""
               /></a>
             </div>
-          </div>
         </nav>
       </section>
     </header>
     <main class="mainsector">
       <div class="text_one padding">
-        <div class="heading"><h1>I’m Harrison Glad to see you!</h1></div>
+        <div class="heading"><h1>I’m Harrison <br> Glad to see you!</h1></div>
         <div>
           <p class="paragraph">
             I’m a software developer! I can help you build a product, feature or
@@ -77,9 +73,11 @@
       <section class="works padding">
         <div class="containerx grid">
           <div class="cardone noqs">
-            <a href="#">
-              <img class="cardimage" src="image/cardone.svg" alt="" />
-            </a>
+            <div class="cardimg card1">
+              <img class="imgmobile" src="./image/cardone.svg" alt="some img">
+              <img class="imagedesktop"  src="./image/cardthree.svg" alt="some img">
+                      
+            </div>
             <div class="card-title">
               <h2 class="title">Tonic</h2>
               <ul class="flex-cards">
@@ -107,10 +105,8 @@
               </div>
             </div>
           </div>
-          <div class="cardtwo noqs">
-            <a href="#"
-              ><img class="cardimage" src="image/cardtwo.svg" alt=""
-            /></a>
+          <div class="cardtwo noqs reversed">
+                       
             <div class="card-title">
               <h3 class="title">Multi-Post Stories</h3>
               <ul class="flex-cards">
@@ -137,12 +133,18 @@
                 <button type="button" class="see-button">See Project</button>
               </div>
             </div>
+             <div class="cardimg card2">
+              <img class="imagedesktop"  src="./image/desktwo.png" alt="some img"> 
+              <img class="imgmobile" src="./image/cardtwo.svg" alt="some img">            
+            </div>
+           
           </div>
 
           <div class="cardthree noqs">
-            <a href="#"
-              ><img class="cardimage" src="image/cardthree.svg" alt=""
-            /></a>
+            <div class="cardimg card3">              
+                <img class="imagedesktop"  src="./image/deskthree.png" alt="some img"> 
+                <img class="imgmobile" src="./image/cardthree.svg" alt="some img">                                    
+            </div>  
             <div class="card-title">
               <h3 class="title">Tonic</h3>
               <ul class="flex-cards">
@@ -170,10 +172,7 @@
               </div>
             </div>
           </div>
-          <div class="cardfour noqs">
-            <a href="#">
-              <img class="cardimage" src="image/cardfour.svg" alt="" />
-            </a>
+          <div class="cardfour noqs reversed">            
             <div class="card-title">
               <h3 class="title">Tonic</h3>
               <ul class="flex-cards">
@@ -196,9 +195,14 @@
                   <button class="button" type="button">javaScript</button>
                 </li>
               </ul>
+              
               <div class="see-container">
                 <button type="button" class="see-button">See Project</button>
               </div>
+            </div>
+            <div class="cardimg card4">  
+              <img class="imagedesktop"  src="./image/deskfour.png" alt="some img"> 
+            <img class="imgmobile" src="./image/cardfour.svg" alt="some img">                       
             </div>
           </div>
         </div>
@@ -209,22 +213,21 @@
           <div class="allabout" id="about">
             <div id="aboutone">
               <div class="about_part">
-                <div class="heading">
+                <div class="heading1 aboutHead">
                   <h1>About Myself</h1>
                 </div>
-                  <p class="paragraph">
+                  <p class="paragraph1">
                   Hello I’m a software developer! I can help you build a product ,
                   feature or website Look through some of my work and experience!
                   If you like what you see and have a project you need coded,
                   don’t hestiate to contact me.
                   </p>
-                </div>
                 <div>
                 <span class="connect2">LETS CONNECT</span>
                 </div>
   
-                  <div class="conect">
-                    <ul class="social-link">
+                  <div class="conect2">
+                    <ul class="social-link social-link_about">
                       <li><a href="#"><img src="/image/Vectortwi.svg" alt="Twitter Icon"/></a></li>
                       <li><a href="#"><img src="/image/vectorlinkedin.png" alt="Linkedin Icon"/></a></li>
                       <li><a href="#"><img src="/image/Vectormi.svg" alt="Media Icon" /></a></li>
@@ -235,39 +238,52 @@
                   </div>
               
                   <div class="see-container">
-                      <button type="button" class="see-button">Get my resume</button>
+                      <button type="button" class="see-button resu-but">Get my resume</button>
                   </div>
               </div>
               <div class="lang-container">
                 <ul class="list_skill">
                   <li class="detail_all">
-                   <details>
-                      <summary>
-                        Language<img src="/css/Union.png" class="pointer" alt="" />
-                      </summary>
+                    <h2 class="langall">
+                     <span>Language</span>
+                     <span>
+                      <img src="/image/arrow_bottom.png" class="pointer" alt="" />
+                      </span>
+                    </h2>
+                    
                         <ul class="language_list">
-                          <li class="lang_icon"><img class="image_icon" src="image/js.png" alt=""/>
-                            <a class="icon_link" href="#">Javascript</a></li>
-                          <li class="lang_icon"><img class="image_icon" src="image/Html.png" alt=""/>
-                            <a class="icon_link" href="#">HTML</a></li>
-                           <li class="lang_icon"><img class="image_icon" src="image/css3.png" alt="" />
-                            <a class="icon_link" href="#">CSS</a></li>
-                        </ul>
-                    </details>
+                          <li class="lang_icon">
+                            <img class="image_icon" src="image/js.png" alt=""/>
+                            <a class="icon_link" href="#">Javascript</a>
+                          </li>
+                          <li class="lang_icon">
+                            <img class="image_icon" src="image/Html.png" alt=""/>
+                            <a class="icon_link" href="#">HTML</a>
+                          </li>
+                           <li class="lang_icon">
+                            <img class="image_icon" src="image/css3.png" alt="" />
+                            <a class="icon_link" href="#">CSS</a>
+                          </li>
+                        </ul>                    
                   </li>
                     <li class="detail_all">
-                        <details>
-                          <summary>Frameworks</summary>
-                        </details>
-                  </li>
+                      <h2 class="langall">
+                        <span>Frameworks</span>
+                        <span>
+                          <img src="/image/arrow_side.png" class="pointer" alt="" />
+                        </span>
+                        </h2>
                     <li class="detail_all">
-                        <details>
-                          <summary>Skills</summary>
-                      </details>
-                  </li>
+                      <h2 class="langall">
+                        <span>Frameworks</span>
+                        <span>
+                          <img src="/image/arrow_side.png" class="pointer" alt="" />
+                        </span>
+                      </h2>
                 </ul>
               </div>
           </div>
+        </div>
         </div>
       </section>
 

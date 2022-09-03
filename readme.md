@@ -6,12 +6,27 @@ Description the project.
 This is a desktop version similar to a Figma template. It must use media quiries to adapt to different screen sizes.
 
 Built With
-Major languages
-HTML and CSS
+CSS
+Html
+
+Description
+The projectlooks the Figma template I chose.
+I setup Linter correctly for this repository.
+I used media queries for webpage to adapt to different screen sizes.
+I use of CSS Grid and Flexbox.
+I used HTML sematic tags
+I used HTML5 form tags
+Form validates the data supplied by the user.
+Username accepts a maximum of 30 characters.
+The textarea/message box accepts a maximum of 500 characters.
+The rorm has having an interactive button.
+
+Prerequisites
+Visual studio editor
 
 Frameworks
 Technologies used
-Live Demo [git@github.com:Harrynoqs/Portfolio-Setup-and-Mobile-firs.git]`
+
 Live Demo Link https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
 
 Getting Started
