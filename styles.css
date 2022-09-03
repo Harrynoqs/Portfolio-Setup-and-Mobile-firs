@@ -64,6 +64,7 @@ nav {
   justify-content: center;
   gap: 0.75rem;
   background-image: url("image/header-shapes-mobile.svg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
