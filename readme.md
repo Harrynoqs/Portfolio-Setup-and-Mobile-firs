@@ -11,11 +11,15 @@ HTML and CSS
 
 Frameworks
 Technologies used
-Live Demo (if available)
-Live Demo Link
+Live Demo [git@github.com:Harrynoqs/Portfolio-Setup-and-Mobile-firs.git]`
+Live Demo Link https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
 
 Getting Started
-This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+To get a local copy up and running follow these simple example steps.
+1. Download the `Zip` or `(git clone)[git@github.com:Harrynoqs/Portfolio-Setup-and-Mobile-firs.git]`
+2. `cd Hello-Microverse`
+3. Then open in your browser by using `live server`
 
 To get a local copy up and running follow these simple example steps.
 
