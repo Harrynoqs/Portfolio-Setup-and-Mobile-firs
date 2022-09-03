@@ -19,6 +19,7 @@ Form is having an interactive button.
 Prerequisites
 Text editor
 
+
 ## Get Started
 
 To get a local copy up and running follow these simple example steps.
@@ -26,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 1. Clone the Repo or Download the Zip file
 2. Run the live server or simply open index.html with your browser.
 
-GitHub
+
 Author Harrison Njuguna 
 
 GitHub: @Harrynqs 
