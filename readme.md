@@ -1,33 +1,22 @@
 
 Project Name
-Portfolio Desktop version
+Portfolio: Application deploy.
 
-Description the project.
-This is a desktop version similar to a Figma template. It must use media quiries to adapt to different screen sizes.
+Description.
+All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The portfolio was successfully deployed using github pages.
+
+Live demo: https://harrynoqs.github.io/Portfolio-Setup-and-Mobile-firs/
 
 Built With
 CSS
 Html
-
-Description
-The projectlooks the Figma template I chose.
-I setup Linter correctly for this repository.
-I used media queries for webpage to adapt to different screen sizes.
-I use of CSS Grid and Flexbox.
-I used HTML sematic tags
-I used HTML5 form tags
-Form validates the data supplied by the user.
-Username accepts a maximum of 30 characters.
-The textarea/message box accepts a maximum of 500 characters.
-The rorm has having an interactive button.
+Github
 
 Prerequisites
 Visual studio editor
 
 Frameworks
 Technologies used
-
-Live Demo Link https://github.com/Harrynoqs/Portfolio-Setup-and-Mobile-firs
 
 Getting Started
 
