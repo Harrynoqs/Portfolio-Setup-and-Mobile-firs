@@ -17,4 +17,10 @@ function close() {
   console.log('its working');
 }
 
+closeBtn.addEventListener('click', close)
+(function closeLink() {
+  for (let i = 0; i < menu.length; i += 1) {
+    menu[i].addEventListener('click', close);
+  }
+}());
 
