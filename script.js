@@ -23,4 +23,3 @@ closeBtn.addEventListener('click', close)
     menu[i].addEventListener('click', close);
   }
 }());
-

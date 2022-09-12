@@ -60,10 +60,6 @@ body {
   margin-right: 20px;
 }
 
-ul.humbuger {
- /* margin: 106px 200px 50px 10px; */
-}
-
 nav li a {
   color: white;
   text-decoration: none;
@@ -86,17 +82,12 @@ nav li a:hover {
 .navbar.container-menu {
   display: flex;
   place-content: space-between;
-
-}
-
-a {
-  font-size: 1.56rem;
-  line-height: 1.25rem;
-  text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 .container-menu {
@@ -573,10 +564,6 @@ ul {
 
 .imagedesktop {
   display: none;
-}
-
-.humbugerlogo {
-  border: 1px solid greenyellow;
 }
 
 /* --desktop-- */

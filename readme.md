@@ -1,9 +1,16 @@
 
 Project Name
-Portfolio: Application deploy.
+Portfolio: Mobile menu.
 
 Description.
-All changes were successful as linters errors were all fixed. The introductory, "my recent works", "about me" and the contact form page has been finished for the mobile version and desktop version for the personal portfolio. The portfolio was successfully deployed using github pages.
+For this project, I added the JavaScript, HTML and CSS linter.
+
+In mobile, I implementted the following features:
+
+-When the user clicks (or taps) the hamburger button, the mobile menu appears.
+-When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+-When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+-When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 
 Live demo: https://harrynoqs.github.io/Portfolio-Setup-and-Mobile-firs/
 
@@ -11,6 +18,7 @@ Built With
 CSS
 Html
 Github
+Javascript
 
 Prerequisites
 Visual studio editor
@@ -40,7 +48,10 @@ Author
 GitHub: @Harrynqs 
 Twitter: @noqsnoq1 
 LinkedIn: Harrisonnjuguna
+
 👤 Author2
+Tanusri Ghosh
+GitHub: @chuaindia
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
