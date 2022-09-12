@@ -22,8 +22,71 @@ body {
   color: #172b4d;
 }
 
-.humbuger {
+.navbar nav {
   display: none;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: hsla(234, 100%, 75%, 0.802);
+  backdrop-filter: blur(0.3rem);
+  height: 100vh;
+}
+
+.active {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background: hsla(234, 100%, 75%, 0.802);
+  backdrop-filter: blur(0.3rem);
+  height: 100vh;
+}
+
+.all-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-exit {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: 2px solid #67798e;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+ul.humbuger {
+ /* margin: 106px 200px 50px 10px; */
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 0.5em;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav li a:hover {
+  font-weight: bold;
+  text-shadow: #5667fd;
+}
+
+.navbar.container-menu {
+  display: flex;
+  place-content: space-between;
+
 }
 
 a {
@@ -36,9 +99,9 @@ ul {
   list-style-type: none;
 }
 
-nav {
+.container-menu {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   padding: 1rem;
   background-color: white;
@@ -512,9 +575,49 @@ nav {
   display: none;
 }
 
+.humbugerlogo {
+  border: 1px solid greenyellow;
+}
+
 /* --desktop-- */
 
 @media only screen and (min-width: 768px) {
+  .mobile-exit,
+  .humbugerlogo {
+    display: none;
+  }
+
+  .container-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar nav {
+    display: flex;
+    justify-content: center;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar nav ul {
+    display: flex;
+  }
+
+  .navbar nav a {
+    color: #6070ff;
+    font-size: 1em;
+    padding: 0.1em 1em;
+  }
+
+  .humbuger {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+  }
+
   .detail_all .langall {
     display: flex;
     justify-content: space-between;
@@ -545,7 +648,7 @@ nav {
 
   .logo {
     text-decoration: none;
-    color: #1818eb;
+    color: #6070ff;
     justify-content: flex-start;
   }
 
@@ -567,21 +670,6 @@ nav {
 
   .noqs.reversed {
     flex-direction: row-reverse;
-  }
-
-  nav {
-    width: 100%;
-    padding: 20px 10%;
-  }
-
-  .menu-image {
-    display: none;
-  }
-
-  .humbuger {
-    display: flex;
-    justify-content: flex-end;
-    font-weight: bold;
   }
 
   .humbuger .menu {
