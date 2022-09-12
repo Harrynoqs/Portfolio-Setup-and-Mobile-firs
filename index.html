@@ -12,23 +12,24 @@
     />
   </head>
   <body class="body-section">
-    <header class="red">
-      <section class="blue">
-        <nav>
+
+      <div class="navbar">
+        <div class="container-menu">
             <a href="#" class="logo">Noqs</a>
-          <ul class="humbuger">
-            <li class="menu">portfolio</li>
-            <li class="menu">about</li>
-            <li class="menu">contact</li>
-          </ul>
-            <div class="menu-image">
-              <a href="#" class="humbugerlogo"
-                ><img src="/image/Humbugermenu.svg" alt=""
-              /></a>
-            </div>
-        </nav>
-      </section>
-    </header>
+            <a href="#" class="humbugerlogo" id="mobile-navi"><img id="mobile-enu" src="./image/Humbugermenu.svg" alt=""/></a>  
+          
+            <nav id="nav" class="all-nav active">
+              <img class="mobile-exit" id="mobile-close" src="./image/exit.svg" alt="exit navigation">
+
+              <ul class="humbuger">
+                <li><a class="menu" href="#works1">Portfolio</a></li>
+                <li><a class="menu" href="#about1">About</a></li>
+                <li><a class="menu" href="#contact1">Contact</a></li>
+              </ul>            
+            </nav>
+        </div>
+      </div>
+
     <main class="mainsector">
       <div class="text_one padding">
         <div class="heading"><h1>I’m Harrison <br> Glad to see you!</h1></div>
@@ -70,7 +71,7 @@
         </div>
       </div>
 
-      <section class="works padding">
+      <section id="works1" class="works padding">
         <div class="containerx grid">
           <div class="cardone noqs">
             <div class="cardimg card1">
@@ -208,7 +209,7 @@
         </div>
       </section>
 
-      <section class="about padding">
+      <section id="about1" class="about padding">
         <div class="contain_noqs">
           <div class="allabout" id="about">
             <div id="aboutone">
@@ -287,7 +288,7 @@
         </div>
       </section>
 
-      <section class="sectorcontact">
+      <section id="contact1" class="sectorcontact">
         <div class="contact_sub">
             <div class="cont_act">
                 <div class="contact_items">
@@ -339,5 +340,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
