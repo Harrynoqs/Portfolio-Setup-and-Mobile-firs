@@ -20,11 +20,11 @@ body {
   mix-blend-mode: multiply;
   backdrop-filter: blur(0.5rem);
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 99;
+  top: 0;
+  left: 0;
 }
 
 .project-popup {
@@ -35,12 +35,12 @@ body {
   border: 5px solid #dfe1e6;
   border-radius: 1em;
   position: fixed;
+  padding: 2em;
+  z-index: 99;
   top: 1em;
   bottom: 1em;
   right: 1em;
   left: 1em;
-  padding: 2em;
-  z-index: 10000;
 }
 
 .project-header {
@@ -188,6 +188,7 @@ body {
     margin: 20px 0;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .project-popup {
     right: 5em;

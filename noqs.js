@@ -63,7 +63,7 @@ const projectCardString = projectsData.map((project) => `
         <div class="cardimg card1">
           <img class="imgmobile"
             src="${project.phone}"
-            alt="Project Snapshoot"
+            alt="some img"
           />
           <img class="imagedesktop"
           src="${project.desk}"
@@ -94,15 +94,12 @@ const projectCardString = projectsData.map((project) => `
 const popupContainer = document.querySelector('.pop-window');
 const recentWork = document.querySelector('.works');
 const parser = new DOMParser();
-
 projectCardString.forEach((projectString, index) => {
   const projectElement = parser.parseFromString(projectString, 'text/html').body.firstChild;
-
   const mobilePopup = `
       <div class="project-popup-hidden ">
         <div class="backgroundpop"></div>
           <div class="project-popup">
-
             <div class="project-header">
               <i class="fa-solid fa-xmark project-close">x</i>
               <h2>${projectsData[index].title}</h2>
@@ -110,8 +107,7 @@ projectCardString.forEach((projectString, index) => {
             </div>
             <div class="cardimg card1">
               <img class="imgmobile pop-img" src="${projectsData[index].phone}" alt="card image">
-              <img class="imagedesktop project-img"  src="${projectsData[index].desk}" alt="card image">                
-            
+              <img class="imagedesktop project-img"  src="${projectsData[index].desk}" alt="card image">            
             <div class="project-footer">
               <p class="project-desc">${projectsData[index].descFull}</p>
               <div>
@@ -129,18 +125,14 @@ projectCardString.forEach((projectString, index) => {
     `;
 
   const mobilePopupElement = parser.parseFromString(mobilePopup, 'text/html').body.firstChild;
-
   const projectBtn = projectElement.querySelector('.see-button');
   const closeBtn = mobilePopupElement.querySelector('.project-close');
-
   projectBtn.addEventListener('click', () => {
     mobilePopupElement.classList.toggle('project-popup-hidden');
   });
-
   closeBtn.addEventListener('click', () => {
     mobilePopupElement.classList.toggle('project-popup-hidden');
   });
-
   recentWork.append(projectElement);
   popupContainer.append(mobilePopupElement);
 });
