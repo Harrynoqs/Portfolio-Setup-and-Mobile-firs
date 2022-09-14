@@ -765,7 +765,6 @@ ul {
     gap: 10px;
   }
 
-  /* here */
   .about_part {
     display: flex;
     flex-direction: column;
