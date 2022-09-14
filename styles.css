@@ -441,7 +441,6 @@ ul {
 
 .contact_paragraph {
   position: absolute;
-  width: 100%;
   left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -471,6 +470,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  width: 90%;
 }
 
 .form .input {
@@ -504,7 +504,8 @@ ul {
   border-radius: 0.5rem;
   height: 3rem;
   border: 1px solid#cfd8dc;
-  padding: 0;
+  /* padding: 1rem;
+  margin-right: 1rem; */
 }
 
 .form_message {
@@ -810,7 +811,7 @@ ul {
   }
 
   .form-list {
-    width: 100%;
+    width: 90%;
   }
 
   .form-list > li {
