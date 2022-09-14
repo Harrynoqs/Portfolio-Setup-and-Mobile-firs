@@ -443,7 +443,6 @@ ul {
 
 .contact_paragraph {
   position: absolute;
-  width: 100%;
   left: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -473,6 +472,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  width: 90%;
 }
 
 .form .input {
@@ -502,14 +502,14 @@ ul {
 
 .name,
 .email {
-  width: 327px;
+  width: 300px;
   border-radius: 0.5rem;
   height: 3rem;
   border: 1px solid#cfd8dc;
 }
 
 .form_message {
-  width: 327px;
+  width: 300px;
   height: 10rem;
   border-radius: 0.5rem;
   padding: 10px;
@@ -809,7 +809,7 @@ ul {
   }
 
   .form-list {
-    width: 100%;
+    width: 90%;
   }
 
   .form-list > li {
