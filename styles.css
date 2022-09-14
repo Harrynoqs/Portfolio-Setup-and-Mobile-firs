@@ -500,7 +500,7 @@ ul {
 
 .name,
 .email {
-  width: 327px;
+  width: 300px;
   border-radius: 0.5rem;
   height: 3rem;
   border: 1px solid#cfd8dc;
@@ -509,7 +509,7 @@ ul {
 }
 
 .form_message {
-  width: 327px;
+  width: 300px;
   height: 10rem;
   border-radius: 0.5rem;
   padding: 10px;
