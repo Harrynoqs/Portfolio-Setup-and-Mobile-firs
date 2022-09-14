@@ -10,6 +10,7 @@ I implemented the following interactions:
 
 -When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
 -When the user clicks (or taps) the close (X) button, the popup disappears.
+-I updateed the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
 
 Live demo: https://harrynoqs.github.io/Portfolio-Setup-and-Mobile-firs/
 
