@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'Tonic',
     subtitle: 'CANOPY',
-    techStack: 'Back End Dev',
+    backEnd: 'Back End Dev',
     year: 2015,
     phone: './image/cardone.svg',
     desk: './image/deskone.png',
@@ -16,7 +16,7 @@ const projectsData = [
   {
     title: 'Multi Post Stories',
     subtitle: 'CANOPY',
-    techStack: 'Back End Dev',
+    backEnd: 'Back End Dev',
     year: 2015,
     phone: './image/cardtwo.svg',
     desk: './image/desktwo.png',
@@ -30,7 +30,7 @@ const projectsData = [
   {
     title: 'Tonic',
     subtitle: 'CANOPY',
-    techStack: 'Back End Dev',
+    backEnd: 'Back End Dev',
     year: 2015,
     phone: './image/cardthree.svg',
     desk: './image/deskthree.png',
@@ -44,7 +44,7 @@ const projectsData = [
   {
     title: 'Multi Post Stories',
     subtitle: 'CANOPY',
-    techStack: 'Back End Dev',
+    backEnd: 'Back End Dev',
     year: 2015,
     phone: './image/cardfour.svg',
     desk: './image/deskfour.png',
@@ -74,7 +74,7 @@ const projectCardString = projectsData.map((project) => `
           <h2>${project.title}</h2>
           <ul class="flex-cards">
             <li class="all-list first">${project.subtitle}</li>
-            <li class="all-list second">${project.techStack}</li>
+            <li class="all-list second">${project.backEnd}</li>
             <li class="all-list second">${project.year}</li>
           </ul>
           <p class="paragraph-cards">${project.desc}</p>
@@ -106,7 +106,7 @@ projectCardString.forEach((projectString, index) => {
             <div class="project-header">
               <i class="fa-solid fa-xmark project-close">x</i>
               <h2>${projectsData[index].title}</h2>
-              <p class="all-list first">${projectsData[index].subtitle} <span class="all-list second">${projectsData[index].techStack}</span> <span class="all-list second">${projectsData[index].year}</span></p>
+              <p class="all-list first">${projectsData[index].subtitle} <span class="all-list second">${projectsData[index].backEnd}</span> <span class="all-list second">${projectsData[index].year}</span></p>
             </div>
             <div class="cardimg card1">
               <img class="imgmobile pop-img" src="${projectsData[index].phone}" alt="card image">
@@ -118,7 +118,6 @@ projectCardString.forEach((projectString, index) => {
                 <ul class = ("prfee")>
                   ${projectsData[index].expertPop.map((tech) => `<li>${tech}</li>`).join('')}
                 </ul>
-                <span></span>
                 <div class="project-links">
                   <a href="${projectsData[index].live}">See Live <i class="close"></i></a>
                   <a href="${projectsData[index].source}">See Source <i class="close"></i></a>
