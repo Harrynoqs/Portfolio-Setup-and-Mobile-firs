@@ -188,3 +188,36 @@ body {
     margin: 20px 0;
   }
 }
+@media screen and (min-width: 1024px) {
+  .project-popup {
+    right: 5em;
+    left: 5em;
+  }
+
+  .project-img {
+    margin-bottom: 59px;
+  }
+
+  .project-desc {
+    margin-right: 20px;
+    line-height: 30px;
+    width: 50vw;
+  }
+
+  .project-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .project-footer > div {
+    width: 30vw;
+  }
+
+  .project-footer ul {
+    margin-bottom: 41px;
+  }
+
+  .project-links a {
+    width: 148px;
+  }
+}
