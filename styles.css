@@ -506,7 +506,6 @@ ul {
   border-radius: 0.5rem;
   height: 3rem;
   border: 1px solid#cfd8dc;
-  padding: 0;
 }
 
 .form_message {
@@ -567,8 +566,6 @@ ul {
 .imagedesktop {
   display: none;
 }
-
-/* --desktop-- */
 
 @media only screen and (min-width: 768px) {
   .mobile-exit,
