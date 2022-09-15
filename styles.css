@@ -10,6 +10,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   font-size: 1rem;
   box-sizing: inherit;
 }
@@ -146,8 +147,9 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px;
   gap: 12px;
+  height: auto;
 }
 
 .reversed {
@@ -185,7 +187,7 @@ ul {
   border-radius: 8px;
   border: none;
   color: #6070ff;
-  padding: 4px 12px 4px 12px;
+  padding: 0 12px 0 12px;
   transition: 0.25s;
   cursor: pointer;
 }
@@ -504,8 +506,6 @@ ul {
   border-radius: 0.5rem;
   height: 3rem;
   border: 1px solid#cfd8dc;
-  /* padding: 1rem;
-  margin-right: 1rem; */
 }
 
 .form_message {
@@ -567,8 +567,6 @@ ul {
   display: none;
 }
 
-/* --desktop-- */
-
 @media only screen and (min-width: 768px) {
   .mobile-exit,
   .humbugerlogo {
@@ -585,7 +583,7 @@ ul {
     justify-content: center;
     background: none;
     position: unset;
-    height: auto;
+    height: 2rem;
     width: 100%;
     padding: 0;
   }
@@ -604,6 +602,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+    height: 2rem;
   }
 
   .detail_all .langall {
@@ -763,7 +762,6 @@ ul {
     gap: 10px;
   }
 
-  /* here */
   .about_part {
     display: flex;
     flex-direction: column;

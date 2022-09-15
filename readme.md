@@ -1,16 +1,16 @@
-
 Project Name
-Portfolio: Mobile menu.
+Portfolio: details popup window
 
 Description.
 For this project, I added the JavaScript, HTML and CSS linter.
 
-In mobile, I implementted the following features:
+For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about your projects in a JavaScript object.
 
--When the user clicks (or taps) the hamburger button, the mobile menu appears.
--When the user clicks (or taps) the close (X) button, the mobile menu disappears.
--When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
--When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+I implemented the following interactions:
+
+-When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
+-When the user clicks (or taps) the close (X) button, the popup disappears.
+-I updateed the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
 
 Live demo: https://harrynoqs.github.io/Portfolio-Setup-and-Mobile-firs/
 
