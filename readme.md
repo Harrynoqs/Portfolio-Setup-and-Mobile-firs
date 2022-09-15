@@ -1,16 +1,17 @@
 Project Name
-Portfolio: details popup window
+Portfolio: validate contact form
 
 Description.
 For this project, I added the JavaScript, HTML and CSS linter.
 
-For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about your projects in a JavaScript object.
+For this milestone of your portfolio website, I implemented a client-side validation of the data in the contact form before submission.
 
 I implemented the following interactions:
 
--When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
--When the user clicks (or taps) the close (X) button, the popup disappears.
--I updateed the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
+- When the user submits the form, I check if the email is in lower case.
+- If the validation is OK, the form is sent.
+- If the validation is not OK, there is an error message to the user near the submit button informing
+  them of the error and the form is not sent.
 
 Live demo: https://harrynoqs.github.io/Portfolio-Setup-and-Mobile-firs/
 
