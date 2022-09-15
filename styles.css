@@ -516,20 +516,39 @@ ul {
 }
 
 .submitt {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  color: #396df2;
   font-size: 17px;
+  font-weight: 500;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #6070ff;
+  margin-top: 56px;
+  border: 1px solid #396df2;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.submitt:hover {
+  background-color: #6070ff;
+  color: white;
+  border: #172b4d;
+}
+
+.submitt:active {
+  background-color: #2230d2;
+  color: white;
 }
 
 #sbm {
   margin-bottom: 45px;
+}
+
+.message-error {
+  color: rgb(239, 63, 63);
+  background-color: lemonchiffon;
+  border-radius: 2rem;
+  padding: 5px;
+  margin-left: 1rem;
+  font-size: 1rem;
 }
 
 .bottom_line {
