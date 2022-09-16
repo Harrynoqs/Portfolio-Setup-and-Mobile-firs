@@ -1,17 +1,15 @@
 Project Name
-Portfolio: validate contact form
+Portfolio: Preserve data in the browser
 
 Description.
 For this project, I added the JavaScript, HTML and CSS linter.
 
-For this milestone of your portfolio website, I implemented a client-side validation of the data in the contact form before submission.
+For this final milestone of your portfolio website, I saved the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 I implemented the following interactions:
 
-- When the user submits the form, I check if the email is in lower case.
-- If the validation is OK, the form is sent.
-- If the validation is not OK, there is an error message to the user near the submit button informing
-  them of the error and the form is not sent.
+➤ When the user changes the content of any input field, the data is saved to the local storage.
+➤ When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
 
 Live demo: https://harrynoqs.github.io/Portfolio-Setup-and-Mobile-firs/
 
