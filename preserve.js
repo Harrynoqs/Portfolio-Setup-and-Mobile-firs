@@ -15,3 +15,4 @@ submitBtn.addEventListener('click', () => {
   localStorage.setItem('text', text);
 });
 
+
