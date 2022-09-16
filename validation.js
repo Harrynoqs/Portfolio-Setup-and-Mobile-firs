@@ -10,7 +10,7 @@ const validEmail = (email) => {
 submitBtn.addEventListener('click', (event) => {
   const validatedEmail = document.getElementById('email').value;
   if (!validEmail(validatedEmail)) {
-    document.querySelector('.message-error').innerHTML = '⚠Please type the email in lowercase⚠';
+    document.querySelector('.message-error').innerHTML = '⚠🥺Please type the email in lowercase🥺⚠';
     event.preventDefault();
   } else {
     document.querySelector('.message-error').innerHTML = '';
