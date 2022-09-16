@@ -1,4 +1,4 @@
-const menuBtn = document.getElementById('mobile-navi');
+const menubtn = document.getElementById('mobile-navi');
 
 const nav = document.querySelector('nav');
 
