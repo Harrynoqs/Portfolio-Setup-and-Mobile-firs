@@ -1,6 +1,4 @@
 const submitBtn = document.getElementById('sbm');
-<<<<<<< HEAD
-=======
 
 submitBtn.addEventListener('click', () => {
   let name = document.getElementById('name');
