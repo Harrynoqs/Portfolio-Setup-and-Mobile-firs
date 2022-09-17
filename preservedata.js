@@ -10,7 +10,7 @@ body.onload = () => {
   if (retrieveData) {
     const store = JSON.parse(retrieveData);
     names.value = store.names;
-    email.value = store.email;
+    emails.value = store.email;
     text.value = store.text;
   }
 };
@@ -23,7 +23,7 @@ document.querySelectorAll('input').forEach((input) => {
     const emailData = document.getElementById('email').value;
     const textData = document.getElementById('text').value;
 
-    const userStore = {
+    consts userStore = {
       name: nameData,
       email: emailData,
       text: textData,
